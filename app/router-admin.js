@@ -1,7 +1,7 @@
 const express = require('express')
 const router = express.Router()
 var MongoClient = require('mongodb').MongoClient;
-// 引入jsonwebtoken
+
 const jwt = require('jsonwebtoken')
 const fs = require('fs')
 // const secretStr = 'sdfsjfklsjfiewjwoieow'
